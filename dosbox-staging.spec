@@ -18,6 +18,7 @@ BuildRequires: pkgconfig(libpng)
 BuildRequires: pkgconfig(alsa)
 BuildRequires: pkgconfig(gtest)
 BuildRequires: pkgconfig(gmock)
+BuildRequires: atomic-devel
 Obsoletes: dosbox < %{EVRD}
 
 %description
