@@ -1,6 +1,6 @@
 Name: dosbox-staging
 Version: 0.79.0
-Release: 1
+Release: 2
 Source0: https://github.com/dosbox-staging/dosbox-staging/archive/refs/tags/v%{version}.tar.gz
 Summary: DOS Emulator
 URL: https://github.com/dosbox-staging/dosbox-staging
