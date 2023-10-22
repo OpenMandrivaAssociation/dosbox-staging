@@ -19,6 +19,7 @@ BuildRequires: pkgconfig(alsa)
 BuildRequires: pkgconfig(gtest)
 BuildRequires: pkgconfig(gmock)
 BuildRequires: pkgconfig(iir)
+BuildRequires: pkgconfig(speexdsp)
 BuildRequires: atomic-devel
 Obsoletes: dosbox < %{EVRD}
 
