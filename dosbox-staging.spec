@@ -10,6 +10,7 @@ BuildRequires: meson ninja
 BuildRequires: pkgconfig(opusfile)
 BuildRequires: pkgconfig(sdl2)
 BuildRequires: pkgconfig(SDL2_net)
+BuildRequires: pkgconfig(SDL2_image)
 BuildRequires: pkgconfig(slirp) >= 4.6.1
 BuildRequires: pkgconfig(gl)
 BuildRequires: pkgconfig(fluidsynth)
