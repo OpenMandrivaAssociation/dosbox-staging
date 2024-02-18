@@ -1,7 +1,7 @@
 Name: dosbox-staging
-Version: 0.80.1
+Version: 0.81.0
 Release: 1
-Source0: https://github.com/dosbox-staging/dosbox-staging/archive/refs/tags/v%{version}.tar.gz
+Source0: https://github.com/dosbox-staging/dosbox-staging/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 Summary: DOS Emulator
 URL: https://github.com/dosbox-staging/dosbox-staging
 License: GPLv2+
@@ -46,7 +46,7 @@ and add new features.
 
 %files
 %doc %{_docdir}/%{name}
-%license %{_datadir}/licenses/dosbox-staging/COPYING
+%license %{_datadir}/licenses/dosbox-staging/
 %{_bindir}/dosbox
 %{_datadir}/applications/dosbox-staging.desktop
 %dir %{_datadir}/dosbox-staging
