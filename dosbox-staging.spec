@@ -46,7 +46,6 @@ and add new features.
 
 %files
 %doc %{_docdir}/%{name}
-%license %{_datadir}/licenses/dosbox-staging/COPYING
 %{_bindir}/dosbox
 %{_datadir}/applications/dosbox-staging.desktop
 %dir %{_datadir}/dosbox-staging
