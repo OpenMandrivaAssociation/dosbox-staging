@@ -64,6 +64,7 @@ and add new features.
 %{_datadir}/dosbox-staging/mapping-wikipedia.org
 %{_datadir}/dosbox-staging/mapping
 %dir %{_datadir}/dosbox-staging/translations
+%lang(br) %{_datadir}/dosbox-staging/translations/br.lng
 %lang(de) %{_datadir}/dosbox-staging/translations/de.lng
 %lang(en) %{_datadir}/dosbox-staging/translations/en.lng
 %lang(es) %{_datadir}/dosbox-staging/translations/es.lng
