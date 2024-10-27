@@ -48,10 +48,10 @@ and add new features.
 %doc %{_docdir}/%{name}
 %license %{_datadir}/licenses/dosbox-staging/
 %{_bindir}/dosbox
-%{_datadir}/applications/dosbox-staging.desktop
+#{_datadir}/applications/dosbox-staging.desktop
 %dir %{_datadir}/dosbox-staging
-%{_datadir}/icons/*/*/apps/dosbox-staging.*
-%{_datadir}/metainfo/dosbox-staging.metainfo.xml
+#{_datadir}/icons/*/*/apps/dosbox-staging.*
+#{_datadir}/metainfo/dosbox-staging.metainfo.xml
 %{_mandir}/man1/dosbox.1*
 %{_datadir}/dosbox-staging/drives/y.conf
 %{_datadir}/dosbox-staging/drives/y
